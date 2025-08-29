@@ -1,0 +1,28 @@
+body{font-family: Arial,sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;}
+
+    button{margin: 5px;
+    padding: 8px 12px;
+background: #2563eb;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;}
+
+#output #list{margin-top: 10px;
+padding :10px;
+border:1px solid #ddd;
+border-radius: 6px;
+background: white;
+}
+/*darkmode(toggle by js)*/
+body.dark-mode{background-color: #111827;
+color: #e5e7eb;}
+
+body.dark-mode button{background: #8b5cf6;
+}
+body.dark-mode #output #list{background: #1f2937;
+border-color: #374151;}
+/*end of darkmode*/

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic JS project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to my JS project</h1>
+        <p id="description">This is a simple JavaScript project setup.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Inputs</h2>
+            <label for="nameInput">Name:</label>
+            <input id="nameInput" type="text" placeholder="Vivian">
+            <label for="countInput">How many items?</label>
+            <input id="countInput" type="number" min="1" max"20" value="5">
+
+            <div>
+                <button id="btnGreet">Greet</button>
+                <button id="btnLoop">Make List</button>
+                <button id="btnTheme">Toggle Theme</button>
+            </div>
+    
+        </section>
+        <section>
+            <h2>Generated List</h2>
+            <ul id="list"></ul>
+        </section>
+        <section>
+            <h2>Output</h2>
+            <div id="output"></div>
+        </section>
+    </main>
+</body>
+</html>
